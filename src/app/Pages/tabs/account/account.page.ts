@@ -18,7 +18,7 @@ export class AccountPage implements OnInit {
   ngOnInit() {
     this.isLoading = true;
     setTimeout(()=>{
-   /* this.requests = [
+    this.requests = [
       {
         name: 'Dom Henrique 1',
         adress: 'Guarapuava',
@@ -43,7 +43,7 @@ export class AccountPage implements OnInit {
         data: 'Janeiro 20, 2024 - 17:30',
         status: 'entregue',
       },
-    ];*/
+    ];
     this.isLoading = false;
   },3000);
   }
